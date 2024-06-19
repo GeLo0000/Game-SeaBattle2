@@ -1,0 +1,14 @@
+debug/Bot.o
+debug/BotLvl2.o
+debug/BotLvl3.o
+debug/Button.o
+debug/Cell.o
+debug/Game.o
+debug/Ship.o
+debug/capitalShip.o
+debug/fuelShip.o
+debug/main.o
+debug/mine.o
+debug/qrc_res.o
+debug/moc_Button.o
+debug/moc_Game.o

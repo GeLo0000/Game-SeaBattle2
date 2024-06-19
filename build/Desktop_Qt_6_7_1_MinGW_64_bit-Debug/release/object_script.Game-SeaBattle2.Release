@@ -1,0 +1,14 @@
+release/Bot.o
+release/BotLvl2.o
+release/BotLvl3.o
+release/Button.o
+release/Cell.o
+release/Game.o
+release/Ship.o
+release/capitalShip.o
+release/fuelShip.o
+release/main.o
+release/mine.o
+release/qrc_res.o
+release/moc_Button.o
+release/moc_Game.o

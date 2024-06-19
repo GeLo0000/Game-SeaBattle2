@@ -17,7 +17,7 @@ different types of ships with unique functions.
 ## Technologies Used
 
 - **Programming Language**: C++
-- **Framework**: Qt for the graphical user interface and user interaction
+- **Framework**: Qt
 
 ---
 
@@ -33,23 +33,23 @@ continues until one player has no ships left.
 
 **Mode Selection**
 
-Image to be added
+![Mode Selection](README_media/Mode.png)
 
 **Grid Size Selection**
 
-Image to be added
+![Grid Size Selection](README_media/Size.png)
 
 **Bot Difficulty Selection**
 
-Image to be added
+![Bot Difficulty Selection](README_media/Difficulty.png)
 
 **Ship Location Selection**
 
-![Menu](README_media/menu.png)
+![Ship Location Selection](README_media/Location.png)
 
 **Manual Ship Placement**
 
-GIF to be added
+![Manual Ship Placement](README_media/Placement.gif)
 
 ---
 
@@ -61,27 +61,39 @@ on the grid size chosen by the user).
 
 ### Regular Ship
 
-(Ship image)
+![Regular Ship](README_media/ship4.png)
 
 A regular ship operates under normal rules and has no special actions upon destruction.
 
+Image of regular ship destruction:
+
+![Regular Ship](README_media/ship4_d.png)
+
 ### Fuel Ship
 
-(Ship image)
+![Fuel Ship](README_media/fuelShip.png)
 
 Upon destruction, the fuel ship creates a double damage zone around itself. If other ships' decks are within this zone, 
 those decks are destroyed as well.
 
+Image of fuel ship destruction:
+
+![Fuel Ship](README_media/fuelShip_d.png)
+
 ### Flagship
 
-(Ship image)
+![Flagship](README_media/capitalShip.png)
 
 The flagship acts as a command center for all other ships. When it is destroyed, its final command to the fleet is to fire 
 three consecutive shots at the opponent's grid. So, when your flagship is destroyed, you can take three shots at the opponent's grid.
 
+Image of flagship destruction:
+
+![Flagship](README_media/capitalShip_d.png)
+
 ### Mine
 
-(Mine image)
+![Mine](README_media/mine.png)
 
 If a player hits an opponent's mine, the corresponding cell on their grid is destroyed.
 
